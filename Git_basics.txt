@@ -4,3 +4,20 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/chiranjeev-21/DLS.git
 git push -u origin main
+
+
+//For updating changes after cloning a repo on your pc
+
+Setting It Up (only do this the initial time)
+
+Find & copy Central Repo URL
+git remote add upstream https://github.com/NEONScience/DI-NEON-participants.git
+After Initial Set Up
+
+Update your Local Repo & Push Changes
+
+git pull upstream master - pull down any changes and sync the local repo with the central repo
+make changes, git add and git commit
+git push origin master - push your changes up to your fork
+Repeat
+
